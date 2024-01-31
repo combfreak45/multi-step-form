@@ -26,9 +26,9 @@ const Form2 = () => {
   };
   return (
     <div className="h-5/6 flex flex-col items-center justify-center gap-10">
-      <div className="bg-white p-10  border-black border-2 rounded-3xl">
-        <form className=" flex flex-col gap-10 text-4xl font-semibold">
-          <div className="bg-sky-300 rounded-[4rem] text-3xl font-semibold py-4 text-center">
+      <div className="bg-white p-4 sm:p-10  border-black border-2 rounded-3xl">
+        <form className=" flex flex-col gap-10 lg:text-4xl font-semibold">
+          <div className="bg-sky-300 rounded-[4rem] lg:text-3xl font-semibold py-4 text-center">
             Address Details
           </div>
           <div className="flex flex-row gap-3">
@@ -54,7 +54,7 @@ const Form2 = () => {
           <input
             onClick={handleSubmit}
             type="submit"
-            className="bg-sky-300 rounded-[4rem] text-3xl font-semibold py-4  hover:scale-110"
+            className="bg-sky-300 rounded-[4rem] lg:text-3xl font-semibold py-4  hover:scale-110"
           />
         </form>
       </div>

@@ -8,7 +8,7 @@ const Thanks = () => {
   return (
     <div className="h-5/6 flex flex-col items-center justify-center gap-10">
       <div className='flex flex-col items-center gap-5 justify-center'>
-        <div className='font-bold text-7xl'>Welcome {formOneData.name} </div>
+        <div className='font-bold text-3xl lg:text-7xl'>Welcome {formOneData.name} </div>
         <div className= ' border-3 border-black  p-5 flex flex-col gap-2 font-medium text-xl'>
           <div>Email: {formOneData.email}</div>
           <div>Address: {formTwoData.address}</div>
